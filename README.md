@@ -48,7 +48,7 @@ import "github.com/travelgateX/go-auth0-certs"
 
 func LoadConfiguration() {
     cert := certificates.NewCertificate("TENANT")
-    Tenant = cert.GetCertificateChain()
+    chain := cert.GetCertificateChain()
 }
 ```
 
